@@ -1,0 +1,40 @@
+/* Este é um exemplo de códigos em css*/
+label[for] {
+    background: yellow;
+}
+
+.obrigatorio {
+    color: red;
+}
+
+input[type=text] {
+    background: #eee;
+    border: 1px solid black;
+}
+
+form div {
+    margin: 10px;
+}
+
+a[href*=edu] {
+    background: green;
+    color: #fff;
+}
+
+/*cores das opções combobox*/
+option[value=S] {
+    color: blue;
+}
+
+option[value=R] {
+    color: red;
+}
+
+option[value=E] {
+    color: green;
+}
+/*fim das cores...*/
+
+[placeholder] {
+    color: red;
+}

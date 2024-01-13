@@ -1,0 +1,27 @@
+table {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    width: 400px;
+    margin: auto;
+}
+
+th {
+    text-align: left;
+    padding: 3px 15px;
+    background-color: #ffffaa;
+    border-bottom: 2px dotted #ccccaa;
+}
+
+td {
+    margin: 0;
+    padding: 3px 15px;
+    border-bottom: 1px dotted green;/*#eee;*/
+}
+
+th {
+    margin: 0;
+}
+
+tr:hover {
+    background-color: #eeffff;
+}

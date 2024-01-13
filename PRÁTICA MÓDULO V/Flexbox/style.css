@@ -1,0 +1,34 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*background-color: dodgerblue;*/
+    justify-content: space-between;
+    align-items: stretch;
+    height: 300px;
+}
+
+.flex-container > div {
+    /*background-color: #f1f1f1;*/
+    /*width: 10%;*/
+    /*height: 80px;*/
+    /*margin: 10px;*/
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.menu {
+    width: 30%;
+    border-right: 2px dashed #aaa;
+}
+
+.conteudo {
+    width: 70%;
+    background-color: white;
+}

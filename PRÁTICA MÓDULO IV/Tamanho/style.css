@@ -1,0 +1,16 @@
+div {
+    background-color: pink;
+    border: 1px solid red;
+}
+
+#elem1 {
+    width: 500px;
+    height: 150px;
+}
+
+#elem2 {
+    min-width: 300px;
+    min-height: 50px;
+    max-width: 500px;
+    max-height: 200px;
+}

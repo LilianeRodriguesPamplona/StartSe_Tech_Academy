@@ -1,0 +1,17 @@
+/*#page {
+    width: 300px;
+    background: yellow;
+    border: 1px solid red;
+}*/
+
+#page {
+    font-size: 10px;
+}
+
+.dobro {
+    font-size: 2rem; /*:2em;*/
+}
+
+span {
+    background-color: pink;
+}

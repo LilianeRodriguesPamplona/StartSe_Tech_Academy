@@ -1,0 +1,18 @@
+@import url(https://fonts.googleapis.com/css?family=Anton);
+
+h1 {
+    font-family: Anton;
+    font-stretch: expanded;
+    font-weight: 400;
+    font-size: 3.5em;
+    color: rgb(147, 82, 146);
+    /*font-variant: small-caps;*/
+}
+
+.texto {
+    color: #444;
+    font-family: verdana, sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-stretch: ultra-expanded;
+}

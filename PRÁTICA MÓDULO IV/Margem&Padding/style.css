@@ -1,0 +1,23 @@
+/*Aqui são os exemplos de MARGIN-PADDING*/
+div {
+    width: 400px;
+    height: 90px;
+    background-color: pink;
+    border: 1px solid red;
+    padding: 20px;
+}
+
+#bloco1 {
+    margin: 30px;
+    padding-left: 100px;
+}
+
+#bloco2 {
+    margin-left: 50px;
+    /*margin-top: -182px;*/
+    padding: 30px;
+}
+
+.fundo {
+    background-color: yellow;
+}

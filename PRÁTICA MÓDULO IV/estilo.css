@@ -1,0 +1,19 @@
+body {
+    background-color: thistle;
+}
+
+h1 {
+    font-size: 155px;
+    color: #FFFFFF;
+}
+
+p {
+    font-size: 35px;
+    background-color: white;
+    color: purple;
+}
+
+a {
+    text-decoration: none;
+    border: 5px solid orangered;
+}

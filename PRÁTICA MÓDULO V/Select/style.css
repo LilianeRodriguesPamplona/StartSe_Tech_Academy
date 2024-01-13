@@ -1,0 +1,7 @@
+.row select{
+    vertical-align: text-top;
+}
+
+form > div {
+    margin: 10px;
+}

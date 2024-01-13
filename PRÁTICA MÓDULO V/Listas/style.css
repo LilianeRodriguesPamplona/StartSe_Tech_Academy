@@ -1,0 +1,43 @@
+ol.romano {
+    list-style-type: lower-roman;
+    border: 1px solid red;
+    list-style-position: outside;/*inside;*/
+    padding-left: 0;
+    margin-left: 40px;
+}
+
+.romano li {
+    background-color: pink;
+    margin-bottom: 5px;
+}
+
+ul.quad {
+    list-style-type: square;
+}
+
+ul.img {
+    list-style-image: url(https://assets.codepen.io/t-1/user-default-avatar.jpg?fit=crop&format=auto&height=10&version=0&width=10);
+}
+
+ul.menu {
+    list-style-type: none;
+    padding: 0;
+    border: 1px solid red;
+}
+
+ul.menu li {
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+ul.menu li a {
+    text-decoration: none;
+}
+
+ul.menu li:hover {
+    background-color: cyan;
+}
+
+ul.menu li:hover a {
+    text-decoration: underline;
+}

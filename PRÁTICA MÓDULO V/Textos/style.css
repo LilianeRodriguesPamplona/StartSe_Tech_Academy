@@ -1,0 +1,25 @@
+p {
+    text-align: justify;
+    line-height: 1.2em;
+    text-indent: 3em;
+    /*letter-spacing: .05em;
+    word-spacing: .8em;*/
+    font-variant: small-caps;
+}
+
+p > span {
+    font-size: .7em;
+    color: red;
+    vertical-align: text-top;/*super; sub;*/
+    text-decoration-line: underline overline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 1px;
+}
+
+p.special {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background: pink;
+    margin-bottom: 20px;
+}

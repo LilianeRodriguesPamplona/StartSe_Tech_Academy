@@ -1,0 +1,21 @@
+h1 {
+    border: 5px dotted blue;
+}
+
+h1 * {
+    border: inherit;
+}
+
+p {
+    background-color: blue;
+    color: white;
+}
+
+p mark {
+    background-color: inherit;
+    color: inherit;
+}
+
+span {
+    background-color: red;
+}
